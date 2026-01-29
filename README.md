@@ -158,5 +158,4 @@ Paper under review.
 
 **Usage**: 
 With [interactive video comparison tool](https://github.com/xswzaqnjimko/video-comparison-tool),
-Drag/click to upload videos | Drag panels to rearrange
-Adjustable playback speed | Enable Overlay Mode for better comparison with click-to-swap or auto-flicker 
+Drag/click to upload videos | Drag panels to rearrange | Adjustable playback speed | Enable Overlay Mode for better comparison with click-to-swap or auto-flicker 
