@@ -32,12 +32,11 @@ SENDAI/
 │       └── utils.py            # Training time, model complexity
 │
 ├── demo_videos/                # Reconstruction video demos
-│   ├── thumbnail.png           # Preview image
+│   ├── video_comparison.gif    # Preview image
 │   ├── simulation.mp4
 │   ├── ground_truth.mp4
 │   ├── sendai_jr.mp4
-│   ├── sendai.mp4
-│   └── video_comparison.html   # Interactive comparison tool
+│   └── sendai.mp4
 │
 └── quick_startup/
     ├── SENDAI_Jr_demo/         # Self-contained demo with pre-downloaded data
@@ -54,14 +53,14 @@ SENDAI/
 
 ### Demo Videos
 
-[![SENDAI Reconstruction Demo](demo_videos/thumbnail.png)](https://xswzaqnjimko.github.io/SENDAI/demo_videos/video_comparison.html)
+[![SENDAI Reconstruction Demo](demo_videos/video_comparison.gif)]
 
 *To view interactive comparison: Simulation | SENDAI Jr. | SENDAI | Ground Truth*
 
 **Usage**: 
+With [interactive video comparison tool](https://github.com/xswzaqnjimko/video-comparison-tool),
 Drag/click to upload videos | Drag panels to rearrange
 Adjustable playback speed | Enable Overlay Mode for better comparison with click-to-swap or auto-flicker 
-([tool source](https://github.com/xswzaqnjimko/video-comparison-tool))
 
 ### Quick Startup
 
