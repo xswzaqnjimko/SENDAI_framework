@@ -51,17 +51,6 @@ SENDAI/
 
 ## Getting Started
 
-### Demo Videos
-
-[![SENDAI Reconstruction Demo](demo_videos/video_comparison.gif)]
-
-*To view interactive comparison: Simulation | SENDAI Jr. | SENDAI | Ground Truth*
-
-**Usage**: 
-With [interactive video comparison tool](https://github.com/xswzaqnjimko/video-comparison-tool),
-Drag/click to upload videos | Drag panels to rearrange
-Adjustable playback speed | Enable Overlay Mode for better comparison with click-to-swap or auto-flicker 
-
 ### Quick Startup
 
 Pre-downloaded data is provided for immediate testing:
@@ -160,3 +149,14 @@ Paper under review.
 
 - MODIS Terra/Aqua Daily Surface Reflectance (MOD09GA/MYD09GA)
 - Google Earth Engine for data access and preprocessing
+
+## Demo Videos
+
+![SENDAI Reconstruction Demo](demo_videos/video_comparison.gif)
+
+*To view interactive comparison: Simulation | SENDAI Jr. | SENDAI | Ground Truth*
+
+**Usage**: 
+With [interactive video comparison tool](https://github.com/xswzaqnjimko/video-comparison-tool),
+Drag/click to upload videos | Drag panels to rearrange
+Adjustable playback speed | Enable Overlay Mode for better comparison with click-to-swap or auto-flicker 
