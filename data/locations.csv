@@ -1,0 +1,7 @@
+location_key,name,center_lon,center_lat,size_km,sim_months,real_months,model_version
+southwestern_us,Imperial Valley California USA,-115.5,32.8,15,Apr-Jun,Jul-Oct,SENDAI
+western_us,Central Valley California USA,-120.5,36.5,15,Apr-Jun,Jul-Oct,SENDAI_Jr
+midwestern_us,Corn Belt Iowa USA,-93.5,42.0,15,Apr-Jun,Jul-Oct,SENDAI_Jr
+northwestern_china,Tarim Basin Xinjiang China,83.5,41.5,15,Apr-Jun,Jul-Oct,SENDAI
+western_spain,Lower Guadalquivir Valley Seville Spain,-6.25,37.25,15,Feb-Apr,Sep-Dec,SENDAI_Jr
+australia,Riverina Australia,147.5,-35.5,15,Feb-Apr,Sep-Dec,SENDAI
