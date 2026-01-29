@@ -31,12 +31,20 @@ SENDAI/
 │       ├── visualization.py    # Plotting functions
 │       └── utils.py            # Training time, model complexity
 │
+├── demo_videos/                # Reconstruction video demos
+│   ├── thumbnail.png           # Preview image
+│   ├── simulation.mp4
+│   ├── ground_truth.mp4
+│   ├── sendai_jr.mp4
+│   ├── sendai.mp4
+│   └── video_comparison.html   # Interactive comparison tool
+│
 └── quick_startup/
     ├── SENDAI_Jr_demo/         # Self-contained demo with pre-downloaded data
     │   ├── SENDAI_Jr_demo.py
     │   ├── SENDAI/             # Module copy
     │   └── data/western_us/
-    └── SENDAI_demo/            # Self-contained demo with pre-downloaded data
+    └── SENDAI_demo/
         ├── SENDAI_demo.py
         ├── SENDAI/             # Module copy
         └── data/northwestern_china/
@@ -44,7 +52,18 @@ SENDAI/
 
 ## Getting Started
 
-### Quick Demo
+### Demo Videos
+
+[![SENDAI Reconstruction Demo](demo_videos/thumbnail.png)](https://xswzaqnjimko.github.io/SENDAI/demo_videos/video_comparison.html)
+
+*To view interactive comparison: Simulation | SENDAI Jr. | SENDAI | Ground Truth*
+
+**Usage**: 
+Drag/click to upload videos | Drag panels to rearrange
+Adjustable playback speed | Enable Overlay Mode for better comparison with click-to-swap or auto-flicker 
+([tool source](https://github.com/xswzaqnjimko/video-comparison-tool))
+
+### Quick Startup
 
 Pre-downloaded data is provided for immediate testing:
 
@@ -84,14 +103,13 @@ python SENDAI_demo.py
 ## Study Sites
 
 | Location Key | Region | Simulation | Ground Truth | Model |
-|--------------|--------|------------|--------------|-------------------|
+|--------------|--------|------------|--------------|-------|
 | `southwestern_us` | Imperial Valley, CA, USA | Apr–Jun | Jul–Oct | SENDAI |
 | `western_us` | Central Valley, CA, USA | Apr–Jun | Jul–Oct | SENDAI Jr. |
 | `midwestern_us` | Corn Belt, IA, USA | Apr–Jun | Jul–Oct | SENDAI Jr. |
 | `northwestern_china` | Tarim Basin, Xinjiang, China | Apr–Jun | Jul–Oct | SENDAI |
 | `western_spain` | Guadalquivir Valley, Spain | Feb–Apr | Sep–Dec | SENDAI Jr. |
 | `australia` | Riverina, NSW, Australia | Feb–Apr | Sep–Dec | SENDAI |
-
 
 ## Model Variants
 
@@ -124,6 +142,14 @@ earthengine-api  # For data download only
 ## Output Files
 
 Model outputs are saved to the `results/` directory:
+
+| File | Description |
+|------|-------------|
+| `predictions_*.npz` | Reconstructed spatiotemporal fields |
+| `comprehensive_metrics.csv` | RMSE, MAE, SSIM, gradient metrics, Moran's I |
+| `timing.csv` | Per-stage runtime breakdown |
+| `*.pt` | Saved model weights |
+| `*.png` | Visualization figures |
 
 ## Citation
 
