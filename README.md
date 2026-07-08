@@ -141,9 +141,7 @@ Model outputs are saved to the `results/` directory:
 
 ## Citation
 
-```
 [ICML 2026 - SENDAI: A Hierarchical Sparse-measurement, EfficieNt Data AssImilation Framework](https://openreview.net/forum?id=YblLI3n0dn)
-```
 
 ## Data Sources
 
